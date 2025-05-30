@@ -1,0 +1,100 @@
+:root {
+    --nav-hover-color: #3498db;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .signup-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+    padding: 40px 50px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: var(--nav-hover-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  button {
+    border-radius: 20px;
+    border: 1px solid var(--nav-hover-color);
+    background-color: var(--nav-hover-color);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: var(--nav-hover-color);
+    border: 1px solid var(--nav-hover-color);
+  }
+  
+  .social-container {
+    margin: 20px 0;
+  }
+  
+  .social-container a {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    color: #555;
+    transition: all 0.3s ease;
+  }
+  
+  .social-container a:hover {
+    border-color: var(--nav-hover-color);
+    color: var(--nav-hover-color);
+  }
